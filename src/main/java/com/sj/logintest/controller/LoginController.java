@@ -14,6 +14,9 @@ public class LoginController {
         System.out.println("LoginController loginfangfabeidiaoyong");
         System.out.println("LogingController dengluming dengluming");
         System.out.println(loginName+"--"+password);
+
+
+
         mv.setViewName("redirect:/main");
         return mv;
     }
